@@ -9,7 +9,7 @@ public class DoubleKick extends PhysicalMove {
 
     @Override
     protected void applyOppDamage(Pokemon attackedPokemon, double damage){
-        attackedPokemon.setMod(Stat.HP, (int) Math.round(damage) * -2);
+        attackedPokemon.setMod(Stat.HP, (int) Math.round(damage) * 2);
     }
 
 }

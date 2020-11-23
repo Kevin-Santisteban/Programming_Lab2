@@ -9,7 +9,7 @@ public class DragonRage extends SpecialMove {
 
     @Override
     protected void applyOppEffects(Pokemon attackedPokemon) {
-            attackedPokemon.setMod(Stat.HP, -40);
+            attackedPokemon.setMod(Stat.HP, 40);
 
     }
 }
